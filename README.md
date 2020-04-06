@@ -2,5 +2,5 @@
 
 Gulp commands:
 
-gulp - for development /n
+gulp - for development
 gulp production - for production
