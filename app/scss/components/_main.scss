@@ -1,55 +1,15 @@
 .banner343 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-height: 100px;
-  height: 100px;
   margin-bottom: 65px;
   overflow: hidden;
-  background-image: url(../img/bg_banner_spring.jpg);
-  background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(#e66465, #9198e5);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
 
   &-wrap {
-    display: flex;
-    align-items: center;
-  }
-
-  &-numbers {
-    font-family: "Rubik", sans-serif;
-    font-size: 34px;
-    color: #008A9C;
-    text-align: center;
-    line-height: 40px;
-    font-weight: bold;
-  }
-
-  &-price {
-    font-family: "Rubik", sans-serif;
-    font-size: 34px;
-    color: #008A9C;
-    text-align: center;
-    line-height: 40px;
-    font-weight: bold;
     position: relative;
-  }
-
-  &-month {
-    font-family: "Rubik", sans-serif;
-    font-size: 34px;
-    color: #FFFFFF;
-    text-align: center;
-    line-height: 40px;
-    font-weight: bold;
-    position: relative;
-    margin: 0 20px;
-    background-color: #FFA59F;
-    border-radius: 5px;
-    padding: 5px 12px;
-  }
-
-  &-off {
-    position: relative;
-    padding-left: 46px;
     z-index: 2;
   }
 }
